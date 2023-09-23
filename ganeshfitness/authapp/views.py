@@ -6,3 +6,6 @@ def home(request):
 
 def signup(request):
     return render(request,'signup.html')
+
+def handlelogin(request):
+    return render(request,'handlelogin.html')
